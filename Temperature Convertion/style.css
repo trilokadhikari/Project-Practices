@@ -1,0 +1,46 @@
+body{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    background-color: hsl(0, 53%, 83%);
+}
+form{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+    max-width: 80vw;
+    margin:auto;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 15px hsl(0, 8%, 13%);
+}
+h1{
+    color: hwb(240 16% 5%);
+}
+#textBox{
+    color: rgb(110, 2, 19);
+    font-size: 2em;
+}
+label{
+    font-size: 2em;
+    color: hsl(197, 95%, 23%);
+    font-weight: bold;
+}
+#submitBtn{
+    background-color: red;
+    color:white;
+    width: 100px;
+    height:40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#submitBtn:hover{
+    background-color: rgb(130, 4, 4);
+}
+#result{
+    color:hsl(300, 95%, 22%);
+    font-size: 1.3em;
+}
