@@ -1,4 +1,4 @@
-# To Do List with Context API
+# To Do List App with Context API
 
 A small React + Vite todo list app that uses React Context to share todo state across components. It supports adding, editing, toggling completion, deleting todos, and persists todos in `localStorage`.
 
