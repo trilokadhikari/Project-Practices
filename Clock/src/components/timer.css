@@ -1,0 +1,12 @@
+input{
+    width: 60px;
+    border: 2px solid gray;
+}
+input:focus{
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
