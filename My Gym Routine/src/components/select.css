@@ -1,0 +1,17 @@
+option{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+option:hover{
+    background-color:rgba(0, 0, 0, 0.944);
+}
+
+option:focus{
+    outline: none;
+}
